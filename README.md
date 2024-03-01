@@ -4,7 +4,7 @@ Includes:
 
 Python Point Slope Calculator (Use of Functions)
 
-Python Platformer Game w/ Basic Physics Engine (Use of OOP, Inheritance)
+Python Platformer Game w/ Basic Physics Engine (Use of OOP, Inheritance & Polymorphism)
 
 HTML / CSS Website
 
