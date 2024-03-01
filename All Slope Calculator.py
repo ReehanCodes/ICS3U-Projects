@@ -1,5 +1,9 @@
-# 1 
-# Making a function with the following variables. 
+# ICS3U Python Submission
+# Created by Reehan Chowdhury
+# Unit 2
+
+
+# Function Declarations
 def Slope(x1, x2, y1, y2):
     if x1 == x2 == y1 == y2 :
         return ("No Slope")
@@ -38,7 +42,7 @@ def pointX(x1, y1, xInt):
     x2 = xInt
     slope = (float)(y2-y1)/(x2-x1)
     yInt = (slope*x1-y1)/1
-    print ("The Equation in y=mx+b format is:", "y =", slope, "x +",yInt)
+    print ("The Equation in y=mx+b format is:", "y =", slope, "x +", yInt)
 # 4
 def pointSlope(x1, y1, slope):
     if slope == 0:
@@ -48,8 +52,8 @@ def pointSlope(x1, y1, slope):
     else:
         yInt = (slope*x1 - y1)/-1
         xInt = -yInt/slope
-        print ("The Equation in y=mx+b format is:", "y =", slope, "x +",yInt)
-        print("The Y-Intercept is: ",yInt)
+        print ("The Equation in y=mx+b format is:", "y =", slope, "x +", yInt)
+        print("The Y-Intercept is: ", yInt)
         print ("The X-Intercept is: ", xInt)
 
 # 5
@@ -65,7 +69,7 @@ def twoPOI(b1, b2, slope1, slope2):
         print("The Equation for Line 1 is: " "y = ", slope1, "x + ", b1)
         print("The Equation for Line 2 is: " "y = ", slope2, "x + ", b2)
 
-
+#Query user for input
 print("1: Two Points")
 print("2: Point & Y-intercept")
 print("3: Point & X-intercept")
